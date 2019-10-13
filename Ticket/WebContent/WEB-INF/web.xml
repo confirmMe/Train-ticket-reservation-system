@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>User</servlet-name>
+    <servlet-class>com.controll.user.User</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserAdd</servlet-name>
+    <servlet-class>com.controll.user.UserAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserEdit</servlet-name>
+    <servlet-class>com.controll.user.UserEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDoEdit</servlet-name>
+    <servlet-class>com.controll.user.UserDoEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserDel</servlet-name>
+    <servlet-class>com.controll.user.UserDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.controll.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Cc</servlet-name>
+    <servlet-class>com.controll.cc.Cc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CcAdd</servlet-name>
+    <servlet-class>com.controll.cc.CcAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CcEdit</servlet-name>
+    <servlet-class>com.controll.cc.CcEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CcDel</servlet-name>
+    <servlet-class>com.controll.cc.CcDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CcDoEdit</servlet-name>
+    <servlet-class>com.controll.cc.CcDoEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CcDetail</servlet-name>
+    <servlet-class>com.controll.cc.CcDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Gg</servlet-name>
+    <servlet-class>com.controll.gg.Gg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GgAdd</servlet-name>
+    <servlet-class>com.controll.gg.GgAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GgDel</servlet-name>
+    <servlet-class>com.controll.gg.GgDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GgEdit</servlet-name>
+    <servlet-class>com.controll.gg.GgEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GgDoEdit</servlet-name>
+    <servlet-class>com.controll.gg.GgDoEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webuser</servlet-name>
+    <servlet-class>com.controll.webuser.Webuser</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebuserDoEdit</servlet-name>
+    <servlet-class>com.controll.webuser.WebuserDoEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webgg</servlet-name>
+    <servlet-class>com.controll.webgg.Webgg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebggDetail</servlet-name>
+    <servlet-class>com.controll.webgg.WebggDetail</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webcc</servlet-name>
+    <servlet-class>com.controll.web.Webcc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webyd</servlet-name>
+    <servlet-class>com.controll.web.Webyd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderAdd</servlet-name>
+    <servlet-class>com.controll.web.OrderAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Weblogin</servlet-name>
+    <servlet-class>com.controll.web.Weblogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webreg</servlet-name>
+    <servlet-class>com.controll.web.Webreg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebccSow</servlet-name>
+    <servlet-class>com.controll.web.WebccSow</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Order</servlet-name>
+    <servlet-class>com.controll.order.Order</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderDel</servlet-name>
+    <servlet-class>com.controll.order.OrderDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderChange</servlet-name>
+    <servlet-class>com.controll.order.OrderChange</servlet-class>
+  </servlet>
+  <servlet>
+  <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webchange</servlet-name>
+    <servlet-class>com.controll.web.Webchange</servlet-class>
+  </servlet>
+  <servlet>
+  <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderChangeUpdate</servlet-name>
+    <servlet-class>com.controll.order.OrderChangeUpdate</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderChangeCheck</servlet-name>
+    <servlet-class>com.controll.order.OrderChangeCheck</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderSearch</servlet-name>
+    <servlet-class>com.controll.web.OrderSearch</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserinfoSearch</servlet-name>
+    <servlet-class>com.controll.web.UserinfoSearch</servlet-class>
+  </servlet>
+    <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserinfoSelect</servlet-name>
+    <servlet-class>com.controll.web.UserinfoSelect</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Webzd</servlet-name>
+    <servlet-class>com.controll.web.Webzd</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userHis</servlet-name>
+    <servlet-class>com.controll.webuser.userHis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>webuserEdit</servlet-name>
+    <servlet-class>com.controll.webuser.webuserEdit</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>webuserUpdate</servlet-name>
+    <servlet-class>com.controll.webuser.webuserUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userinfoUpdate</servlet-name>
+    <servlet-class>com.controll.web.UserinfoUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserHis</servlet-name>
+    <servlet-class>com.controll.user.UserHis</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>userhelp</servlet-name>
+    <servlet-class>com.controll.web.userhelp</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>helpAdd</servlet-name>
+    <servlet-class>com.controll.help.helpAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>help</servlet-name>
+    <servlet-class>com.controll.help.help</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>helpDel</servlet-name>
+    <servlet-class>com.controll.help.helpDel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>helpEdit</servlet-name>
+    <servlet-class>com.controll.help.helpEdit</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>helpDoEdit</servlet-name>
+    <servlet-class>com.controll.help.helpDoEdit</servlet-class>
+  </servlet>
+   <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name> webcphelp</servlet-name>
+    <servlet-class>com.controll.help.webcphelp</servlet-class>
+  </servlet>
+  
+    
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>User</servlet-name>
+    <url-pattern>/servlet/User</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAdd</servlet-name>
+    <url-pattern>/servlet/UserAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserEdit</servlet-name>
+    <url-pattern>/servlet/UserEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDoEdit</servlet-name>
+    <url-pattern>/servlet/UserDoEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserDel</servlet-name>
+    <url-pattern>/servlet/UserDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cc</servlet-name>
+    <url-pattern>/servlet/Cc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CcAdd</servlet-name>
+    <url-pattern>/servlet/CcAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CcEdit</servlet-name>
+    <url-pattern>/servlet/CcEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CcDel</servlet-name>
+    <url-pattern>/servlet/CcDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CcDoEdit</servlet-name>
+    <url-pattern>/servlet/CcDoEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CcDetail</servlet-name>
+    <url-pattern>/servlet/CcDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Gg</servlet-name>
+    <url-pattern>/servlet/Gg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GgAdd</servlet-name>
+    <url-pattern>/servlet/GgAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GgDel</servlet-name>
+    <url-pattern>/servlet/GgDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GgEdit</servlet-name>
+    <url-pattern>/servlet/GgEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GgDoEdit</servlet-name>
+    <url-pattern>/servlet/GgDoEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Webuser</servlet-name>
+    <url-pattern>/servlet/Webuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebuserDoEdit</servlet-name>
+    <url-pattern>/servlet/WebuserDoEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Webgg</servlet-name>
+    <url-pattern>/servlet/Webgg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebggDetail</servlet-name>
+    <url-pattern>/servlet/WebggDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Webcc</servlet-name>
+    <url-pattern>/servlet/Webcc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Webyd</servlet-name>
+    <url-pattern>/servlet/Webyd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderAdd</servlet-name>
+    <url-pattern>/servlet/OrderAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Weblogin</servlet-name>
+    <url-pattern>/servlet/Weblogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Webreg</servlet-name>
+    <url-pattern>/servlet/Webreg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebccSow</servlet-name>
+    <url-pattern>/servlet/WebccSow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Order</servlet-name>
+    <url-pattern>/servlet/Order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderDel</servlet-name>
+    <url-pattern>/servlet/OrderDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderChange</servlet-name>
+    <url-pattern>/servlet/OrderChange</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>Webchange</servlet-name>
+    <url-pattern>/servlet/Webchange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderChangeUpdate</servlet-name>
+    <url-pattern>/servlet/OrderChangeUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderChangeCheck</servlet-name>
+    <url-pattern>/servlet/OrderChangeCheck</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>OrderSearch</servlet-name>
+    <url-pattern>/servlet/OrderSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserinfoSearch</servlet-name>
+    <url-pattern>/servlet/UserinfoSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserinfoSelect</servlet-name>
+    <url-pattern>/servlet/UserinfoSelect</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userHis</servlet-name>
+    <url-pattern>/servlet/userHis</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>Webzd</servlet-name>
+    <url-pattern>/servlet/Webzd</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>webuserEdit</servlet-name>
+    <url-pattern>/servlet/webuserEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>webuserUpdate</servlet-name>
+    <url-pattern>/servlet/webuserUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userinfoUpdate</servlet-name>
+    <url-pattern>/servlet/userinfoUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserHis</servlet-name>
+    <url-pattern>/servlet/UserHis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>userhelp</servlet-name>
+    <url-pattern>/servlet/userhelp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>helpAdd</servlet-name>
+    <url-pattern>/servlet/helpAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>help</servlet-name>
+    <url-pattern>/servlet/help</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>helpDel</servlet-name>
+    <url-pattern>/servlet/helpDel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>helpEdit</servlet-name>
+    <url-pattern>/servlet/helpEdit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>helpDoEdit</servlet-name>
+    <url-pattern>/servlet/helpDoEdit</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>webcphelp</servlet-name>
+    <url-pattern>/servlet/webcphelp</url-pattern>
+  </servlet-mapping>
+     
+      
+        
+  <welcome-file-list>
+    <welcome-file>jspweb/weblogin.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

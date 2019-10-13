@@ -1,0 +1,30 @@
+#appDown {
+	background: red; height: 0px; font-size: 0px; position: relative;
+}
+.erweima {
+	background: url("app_bg.png") no-repeat; padding: 0px; border: 1px solid rgb(219, 219, 219); border-image: none; left: -115px; top: 0px; width: 103px; height: 145px; position: absolute;
+}
+.erweima .shutDown {
+	margin: 0px; padding: 0px; width: 18px; height: 18px; overflow: hidden; float: right; display: block; cursor: pointer;
+}
+#erweimaNews {
+	padding: 0px; left: 0px; top: 18px; width: 103px; position: absolute;
+}
+.erweima .erweimaPic {
+	margin: 4px 0px 0px; padding: 0px; width: 103px; height: 80px; text-align: center; float: left;
+}
+.erweima .erweimaPic a {
+	margin: 0px; padding: 0px;
+}
+.erweima img {
+	border: 0px currentColor; border-image: none; vertical-align: middle;
+}
+.erweima .ft {
+	padding: 5px 0px 0px; width: 100%; text-align: center; color: rgb(107, 107, 107); line-height: 17px; float: left;
+}
+.erweima .ft a {
+	margin: 0px; padding: 0px; color: rgb(107, 107, 107); font-size: 12px;
+}
+.erweima .ft {
+	text-align: center; color: rgb(107, 107, 107); line-height: 17px;
+}
